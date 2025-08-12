@@ -1,0 +1,1515 @@
+@media(min-width: 1200px) {
+	.container {
+		max-width: 1200px;
+		padding: 0 15px;
+	}
+}
+
+@media(max-width: 1800px) {
+	.navbar-header .sidebar-menu{
+		width: 300px;
+	}
+	.header .navbar_main{
+		padding: 30px 40px 30px 40px;
+	}
+	.navbar_expand .navbar_main .sidebar-toggle{
+		left: 40px;
+	}
+	.sidebar-menu .side_social_info{
+		padding: 60% 40px 60px;
+	}
+	.banner_content{
+		padding: 180px 0 100px 60px;
+	}
+	.side_panel{
+		padding: 35px 20px;
+	}
+	.scroll-down{
+		bottom: 40px;
+	}
+}
+
+@media(max-width: 1700px) {
+	.navbar-header .sidebar-menu{
+		width: 280px;
+	}
+	.banner_content{
+		padding: 180px 0 100px 100px;
+	}
+}
+
+
+@media(max-width: 1600px) {
+	.navbar-header .sidebar-menu{
+		width: 250px;
+	}
+	.img-shape1{
+		left: 50px;
+	}
+	.header .navbar_main {
+		padding: 30px;
+	}
+	.navbar_expand .navbar_main .sidebar-toggle {
+		left: 25px;
+	}
+	.sidebar-menu .side_social_info{
+		padding: 65% 30px 30px;
+	}
+	.navbar-header .sidebar-menu .list-social-ic li{
+		margin: 0 10px;
+	}
+	.time-schedule {
+		padding: 30px 0 0 0;
+	}
+	.social_list {
+		padding-top: 35px;
+	}
+	.background_shape{
+		left: 140px;
+	}
+	.shape-img-2{
+		right: -50px;
+	}
+	.shape-img-1{
+		left: -50px;
+	}
+	.shape-img-3{
+		left: 125px;
+	}
+
+}
+
+@media(max-width: 1500px) {
+	h1{
+		font-size: 64px;
+		line-height: 82px;
+	}
+	.banner_content {
+		padding: 180px 0 100px 150px;
+	}
+	.banner_content.col-lg-9{
+		width: 80%;
+	}
+	.scroll-down{
+		bottom: 40px;
+	}
+	.social-triangle::before{
+		width: 270px;
+		height: 300px;
+	}
+	.background_shape {
+		left: 70px;
+	}
+	.img-shape1 {
+		left: 0;
+	}
+	.shape-img-2 {
+		right: -127px;
+	}
+	.shape-img-1 {
+		left: -75px;
+	}
+	.shape-img-3 {
+		left: 100px;
+	}
+	.side_panel{
+		padding: 30px 20px;
+	}
+}
+
+@media(max-width: 1440px) {
+	.banner_social{
+		height: 100px;
+		width: 300px;
+	}
+	.triangle-1{
+		bottom: 100px;
+		border-left: solid 300px transparent;
+		border-bottom: solid 240px #EA1C29;
+	}
+	.banner_content {
+		padding: 180px 0 100px 180px;
+	}
+	.banner_content.col-lg-9{
+		width: 85%;
+	}
+	.navbar_nav .nav-item a{
+		margin: 0 9px;
+	}
+	.scroll-down {
+		bottom: 20px;
+	}
+	.fitzaro_video:before{
+		top: 0;
+		right: 0;
+	}
+	.fitzaro_video:after{
+		left: 0;
+		bottom: -200px;
+	}
+	.background_shape {
+		left: 40px;
+	}
+	.testimonial-section:before{
+		top: -100px;
+		left: -220px;
+	}
+	.testimonial-section:after{
+		right: -220px;
+	}
+	.fitzaro_banner:before{
+		left: -250px;
+	}
+	.img-shape1{
+		left: -50px;
+	}
+	.img-shape2{
+		right: 0;
+	}
+}
+
+@media only screen and (min-width: 1330px) and (max-width: 1380px){
+	H1{
+		font-size: 52px;
+		line-height: 62px;
+	}
+	.banner_content p{
+		margin-bottom: 62px;
+	}
+	.social_list{
+		padding-top: 20px;
+	}
+	.social_list li a{
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.social_list .mb-5{
+		margin-bottom: 15px!important;
+	}
+	.social_list li p{
+		font-size: 18;
+	}
+	.time-schedule {
+		padding: 22px 0 0 0;
+	}
+	.side_panel {
+		padding: 25px 20px;
+	}
+	.banner_content{
+		padding: 150px 0 80px 180px;
+	}
+
+}
+
+@media(max-width: 1300px) {
+	.banner_social{
+		height: 100px;
+		width: 250px;
+	}
+	.triangle-1{
+		border-bottom: solid 200px #EA1C29;
+		border-left: solid 250px transparent;
+		bottom: 100px;
+	}
+	.navbar-header .sidebar-menu {
+		width: 220px;
+	}
+	.social_list li a{
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.time-schedule .weekly-day{
+		font-size: 22px;
+	}
+	.time-schedule p{
+		font-size: 16px;
+	}
+	.side_panel{
+		padding: 30px 10px;
+	}
+	.list-social-ic .icon i{
+		font-size: 22px;
+	}
+	.navbar-header .sidebar-menu .list-social-ic li{
+		margin: 0 10px;
+	}
+	.sidebar-menu .side_social_info {
+		padding: 70% 30px 30px;
+	}
+	.navbar_nav .nav-item a {
+		margin: 0 6px;
+	}
+	.banner_content {
+		padding: 180px 0 100px 215px;
+	}
+	.shape-img-2 {
+		display: none;
+	}
+	.shape-img-1 {
+		left: -130px;
+	}
+	.shape-img-3 {
+		left: 50px;
+	}
+	.img-shape1, .img-shape2 {
+		width: 100px;
+	}
+
+}
+
+@media(max-width: 1200px){
+	.shape-img-1, .shape-img-3 {
+		display: none;
+	}
+	.banner_social{
+		height: 90px;
+		width: 230px;
+	}
+	.triangle-1{
+		border-bottom: solid 180px #EA1C29;
+		border-left: solid 230px transparent;
+		bottom: 90px;
+	}
+
+	
+
+}
+
+@media(max-width: 1199px){
+	.banner_content{
+		padding: 180px 0 100px 0;
+	}
+	.banner_content.col-lg-9{
+		width: 88%;
+	}
+	.navbar_panel .navbar-toggle {
+		display: inline-block!important;
+		position: relative;
+		width: 48px;
+		height: 48px;
+		line-height: 48px;
+		cursor: pointer;
+		color: #EA1C29;
+		background-color: transparent;
+		border: none;
+		display: none;
+		padding: 1px 6px;
+		z-index: 999;
+	}
+	.navbar-toggle span {
+		position: relative;
+		display: block;
+		margin: auto;
+		transition: .3s all ease;
+	}
+
+	.navbar-toggle span:after, .navbar-toggle span:before, .navbar-toggle span {
+		width: 24px;
+		height: 2px;
+		background-color: #EA1C29;
+		backface-visibility: hidden;
+		border-radius: 0;
+	}
+	.navbar-toggle span:after, .navbar-toggle span:before {
+		content: "";
+		position: absolute;
+		left: 0;
+		top: -8px;
+		transition: .3s all ease;
+	}
+	.navbar-toggle span:after {
+		top: 8px;
+	}
+	.navbar-toggle.static span:before {
+		transform: rotate(45deg);
+	}
+	.navbar-toggle.static span:before, .navbar-toggle.static span:after {
+		transform-origin: 50% 50%;
+		top: 0;
+	}
+	.navbar-toggle.static span:after {
+		transform: rotate(-45deg);
+	}
+	.navbar-toggle.static span{
+		background: transparent;
+	}
+	.navbar_panel{
+		display: flex;
+		align-items: center;
+	}
+	.navbar_brand{
+		margin-left: 8px;
+	}
+	.navbar_expand .navbar_main .sidebar-toggle{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		width: 40px;
+		height: 48px;
+		padding: 10px 7px;
+		z-index: 99;
+		position: fixed;
+		top: 25px;
+		right: 30px;
+		left: auto;
+		text-align: center;
+		border: none;
+		color: #000000;
+		background: transparent;
+		cursor: pointer;
+		font-size: 0;
+		line-height: 0;
+	}
+	.navbar_expand .navbar_main .sidebar-toggle.active::before, 
+	.navbar_expand .navbar_main .sidebar-toggle.active::after {
+		transform: scale(0.6);
+	}
+	.navbar_expand .navbar_main .sidebar-toggle::before, 
+	.navbar_expand .navbar_main .sidebar-toggle::after {
+		content: '';
+	}
+	.navbar_main .sidebar-toggle.active::before{
+		top: 10px;
+		left: initial;
+	}
+	.navbar_main .sidebar-toggle.active::after{
+		bottom: 10px;
+		left: initial;
+	}
+	.navbar_expand .navbar_main .sidebar-toggle::before, 
+	.navbar_expand .navbar_main .sidebar-toggle::after, 
+	.navbar_expand .navbar_main .sidebar-toggle span {
+		display: inline-block;
+		width: 6px;
+		height: 6px;
+		border-radius: 50%;
+		background: #000000;
+		transition: all .3s ease;
+	}
+	.navbar_expand .navbar_main .sidebar-toggle.active span {
+		transform: scale(1.4);
+		opacity: 1;
+	}
+	.navbar-header .sidebar-menu.active {
+		opacity: 1;
+		visibility: visible;
+		transform: none;
+		transition: all 0.3s ease-in-out;
+	}
+	.navbar-header .sidebar-menu {
+		position: fixed;
+		top: 98px;
+		right: 0;
+		left: auto;
+		bottom: auto;
+		width: 270px;
+		color: #000000;
+		background: #ffffff;
+		box-shadow: 0 0 22px -4px rgb(0 0 0 / 17%);
+		transform: translateY(-30px);
+		transition: all 0.3s ease-in-out;
+		visibility: hidden;
+		opacity: 0;
+		z-index: 100;
+	}
+	.header .navbar_main {
+		position: fixed;
+		left: 0;
+		top: 0;
+		right: 0;
+		z-index: 999;
+		background-color: #ffffff;
+		padding: 25px 30px;
+		box-shadow: 0 0 22px -4px rgb(0 0 0 / 17%);
+	}
+	.navbar-header .sidebar-menu .side_social_info img,
+	.navbar-header .sidebar-menu .time-schedule, 
+	.navbar-header .sidebar-menu .social_list li, 
+	.side_panel, .navbar-header .sidebar-menu .list-social-ic li{
+		transform: none;
+		transition: none;
+	}
+	.sidebar-menu .side_social_info{
+		padding: 20px;
+		flex-grow: unset;
+	}
+	.sidebar-menu .side_social_info img{
+		display: none!important;
+	}
+	.time-schedule {
+		padding: 0 0 20px 0;
+		text-align: center;
+	}
+	.social_list {
+		text-align: center;
+		padding: 0;
+	}
+	.social_list .mb-5{
+		margin-bottom: 30px!important;
+	}
+	.side_panel {
+		padding: 25px 10px;
+	}
+	.navbar_nav .nav-item{
+		display: block;
+	}
+	.navbar_collapse {
+		color: #ffffff;
+		background: #ffffff;
+		box-shadow: 0px 15px 15px 0px rgb(0 0 0 / 17%);
+	}
+	.navbar_collapse {
+		position: fixed;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		z-index: 99;
+		width: 300px;
+		height: 100vh;
+		-webkit-overflow-scrolling: touch;
+		font-size: 14px;
+		line-height: 34px;
+		transform: translateX(-110%);
+		transition: all 0.3s ease-in-out;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		margin-top: 98px;
+		padding-bottom: 98px;
+	}
+	.navbar_collapse.static {
+		transform: translateX(0);
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		padding: 0 30px;
+		margin-top: 98px;
+		transition: all 0.3s ease-in-out;
+		padding-bottom: 98px;
+	}
+	.header .navbar-header.sticky .sidebar-toggle{
+		opacity: 1;
+		visibility: visible;
+	}
+	.header .navbar-header.sticky .sidebar-menu{
+		transform: none;
+	}
+	.navbar_nav .nav-item a{
+		color: #000000;
+		margin: 25px 0;
+	}
+	.about_text img{
+		width: 95%;
+		height: auto;
+	}
+	.about_img .about_text{
+		text-align: center;
+		left: 0;
+		right: auto;
+	}
+	.service_wrappe .service_title{
+		padding-left: 16px;
+	}
+	.services_box{
+		padding: 30px;
+	}
+	.line-1, .line-3, .line-2, .line-4{
+		width: 100%;
+	}
+	.line-1, .line-3{
+		left: 0;
+	}
+	.line-2{
+		right: 44%;
+	}
+	.line-4{
+		left: 44%;
+	}
+	.top-arrow-grp{
+		left: 5px;
+	}
+	.right-arrow-grp .arrow, 
+	.top-arrow-grp .arrow{
+		width: 12px;
+		height: 12px;
+	}
+	.right-arrow-grp {
+		right: -10px;
+	}
+	.services_tool .box-tool{
+		padding: 40px 25px;
+	}
+	.fitzaro_tools h3{
+		font-size: 28px;
+	}
+	.review_detail{
+		width: 100%;
+		height: 100%;
+	}
+	.review_detail::before{
+		width: 99.5%;
+		height: 99.5%;
+		top: 1px;
+		left: 1px;
+	}
+	.review_detail p{
+		padding: 50px 40px;
+	}
+	.price-data h3{
+		font-size: 40px;
+		line-height: 52px;
+	}
+	.price-data span{
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.price-data .month-text{
+		font-size: 22px;
+	}
+	.countdown_formula .coundown-number{
+		font-size: 70px;
+		line-height: 70px;
+	}
+	.get_title h2{
+		font-size: 44px;
+	}
+	.appointment_form{
+		padding: 40px;
+	}
+	.gym_timetable table tbody td{
+		padding: 26px 15px;
+	}
+	.gym_timetable table thead th{
+		font-size: 22px;
+		padding: 20px 25px;
+	}
+	.gym_timetable table tbody td .tabel_content h3{
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.bg_image img{
+		width: 84%;
+	}
+	.fitzaro_banner .col-lg-6{
+		width: 82%;
+	}
+	.footer-social-list a{
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+	}
+	.footer-social-list i{
+		font-size: 20px;
+	}
+
+}
+
+
+@media(max-width: 1024px){
+
+	.p-10 {
+		padding: 80px 0;
+	}
+	.mb-60 {
+		margin-bottom: 50px;
+	}
+	h1{
+		font-size: 60px;
+		line-height: 76px;
+	}
+	h2{
+		font-size: 44px;
+		line-height: 50px;
+	}
+	h3{
+		font-size: 26px;
+	}
+	.inn-price-plan .price_list{
+		line-height: 26px;
+	}
+	.build_best, .services_tool {
+		padding-top: 80px;
+	}
+	.p-8 {
+		padding-bottom: 60px;
+	}
+	.banner_content p{
+		margin-bottom: 62px;
+	}
+	.background_shape {
+		left: 0;
+	}
+	.order-number{
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.input_area .inputt-text{
+		height: 50px;
+	}
+	.blog_title{
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.newsletter_subscribe .fitness-update{
+		padding: 60px;
+	}
+	.footer{
+		padding: 220px 0 80px 0;
+		margin-top: -140px;
+	}
+	.review_detail p{
+		padding: 40px 30px;
+		line-height: 28px;
+	}
+	.review_detail::before{
+		height: 99.3%;
+	}
+	.list_icon .check_detail{
+		padding-left: 12px;
+	}
+	.service_wrappe .service_title{
+		font-size: 28px;
+		line-height: 36px;
+	}
+	.fitzaro_tools h3 {
+		font-size: 26px;
+	}
+	.scroll-arrow{
+		width: 10px;
+		height: 10px;
+	}
+	.scroll-down{
+		padding: 8px;
+	}
+}
+
+
+@media(max-width: 991px){
+	.p-10{
+		padding: 60px 0;
+	}
+	.client_profile img{
+		width: 80px;
+		height: 80px;
+	}
+	.star-trating i {
+		font-size: 18px;
+	}
+	.testimonial_data p{
+		margin-bottom: 10px;
+	}
+	.body_detail .tabel_content{
+		width: 130px;
+		margin: 0 auto;
+	}
+	.img-shape1, .img-shape2 {
+		display: none;
+	}
+	.banner_content.col-lg-9{
+		width: 100%;
+	}
+	.build_best, .services_tool{
+		padding-top: 50px;
+	}
+	.service_wrappe .service_title{
+		padding-left: 5px;
+	}
+	.service_ic{
+		width: 150px;
+	}
+	.right-arrow-grp .arrow, .top-arrow-grp .arrow{
+		width: 10px;
+		height: 10px;
+	}
+	.right-arrow-grp{
+		top: -30px;
+	}
+	.top-arrow-grp{
+		left: 0;
+	}
+	.line-1{
+		top: -10px;
+	}
+	.line-3{
+		bottom: -10px;
+	}
+	.services_tool .box-tool {
+		padding: 30px 20px;
+	}
+	.services_tool .box-tool:hover{
+		padding: 30px 20px;
+	}
+	.box-tool:hover .exercise-img{
+		padding: 30px 0 30px 20px;
+	}
+	.countdown_formula{
+		padding-bottom: 60px;
+	}
+	.countdown_formula .coundown-number {
+		font-size: 70px;
+		line-height: 70px;
+		padding: 25px 0 5px 0;
+	}
+	.fitzaro_coundown{
+		padding: 60px 0 0px 0;
+	}
+	.gym_timetable table thead th{
+		padding: 20px 34px;
+	}
+	.review_detail::before{
+		width: 99.4%;
+		height: 99.5%;
+	}
+	.header .navbar_main{
+		padding: 20px 30px;
+	}
+	.navbar_collapse.static {
+		margin-top: 88px;
+		padding-bottom: 88px;
+	}
+	.navbar_collapse {
+		margin-top: 88px;
+		padding-bottom: 88px;
+	}
+	.navbar_expand .navbar_main .sidebar-toggle{
+		top: 20px;
+	}
+	.banner_content{
+		padding: 150px 0 100px 0;
+	}
+	.star-trating i{
+		font-size: 22px;
+	}
+	.navbar-header .sidebar-menu{
+		top: 88px;
+	}
+	p{
+		font-size: 18px;
+		line-height: 26px;
+	}
+	h1 {
+		font-size: 56px;
+		line-height: 70px;
+	}
+	.main_heading {
+		padding-bottom: 15px;
+	}
+
+	.banner_social{
+		height: 70px;
+		width: 200px;
+	}
+	.triangle-1{
+		border-bottom: solid 150px #EA1C29;
+		border-left: solid 200px transparent;
+		bottom: 70px;
+	}
+	.banner_content p {
+		margin-bottom: 52px;
+	}
+	.fitzaro_video:before{
+		right: -100px;
+	}
+	.fitzaro_video:after{
+		left: -100px;
+	}
+	.p-8 {
+		padding-bottom: 40px;
+	}
+	.price-data h3{
+		font-size: 30px;
+		line-height: 42px;
+	}
+	.pricing_data .price-data{
+		bottom: 2px;
+		left: 15px;
+	}
+	.price-data .month-text {
+		font-size: 18px;
+	}
+	.inn-price-plan .price_list{
+		padding-top: 25px;
+		font-size: 18px;
+		line-height: 24px;
+	}
+	.fitzaro_banner:before{
+		left: -300px;
+		bottom: -150px;
+	}
+	.border-shape{
+		width: 140px;
+		height: 140px;
+	}
+	.team-box .box-inner{
+		margin-top: -70px;
+		padding: 90px 15px 40px 15px;
+	}
+	.box-inner .trainer-detail{
+		line-height: 26px;
+	}
+	.team-social li{
+		margin: 0 5px;
+	}
+	.appointment_form{
+		padding: 30px 25px;
+	}
+	.input_area .inputt-text{
+		font-size: 16px;
+		padding: 15px;
+	}
+	.form_start .input_area textarea {
+		height: 120px;
+	}
+	.get_title h2{
+		font-size: 34px;
+		margin-bottom: 10px!important;
+	}
+	.form_start .input_area{
+		margin-bottom: 15px;
+	}
+	.mb-60 {
+		margin-bottom: 30px;
+	}
+	.video_info .video_button{
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+	}
+	.video_button i{
+		font-size: 26px;
+	}
+	.progress-title, .progress-value, .progress-value span{
+		font-size: 18px;
+	}
+	.skil-progressbar span{
+		height: 5px;
+	}
+	.post_data .feature-post{
+		padding: 25px 0 10px 0;
+	}
+	.feature-post li{
+		margin-right: 20px;
+	}
+	.feature-post li i{
+		margin-right: 5px;
+	}
+	.feature-post li span{
+		font-size: 18px;
+	}
+	.blog_title{
+		font-size: 30px;
+		line-height: 36px;
+		margin-bottom: 20px;
+	}
+	.read-button a{
+		font-size: 18px;
+	}
+	.newsletter_subscribe .fitness-update{
+		padding: 50px 40px;
+	}
+	.reboot-img{
+		padding-bottom: 20px;
+	}
+	.footer{
+		padding: 200px 0 60px 0;
+	}
+	.footer_first_row{
+		text-align: center;
+		padding-bottom: 40px;
+	}
+	.footer_first_row .footer-social-list{
+		justify-content: center;
+		margin-top: 30px;
+	}
+	.footer-social-list a{
+		margin: 0 12px;
+	}
+	.locate_places p{
+		margin: 30px 0 0 0;
+	}
+	.sub-footer{
+		padding-top: 60px;
+	}
+	.price-data span{
+		padding-bottom: 0;
+	}
+	.inn-price-plan{
+		padding-left: 0;
+	}
+	.fitzaro_btn{
+		padding: 16px 20px;
+	}
+	.reboot-img img{
+		width: 80px;
+		height: 80px;
+	}
+
+}
+
+@media (max-width: 768px){
+	.client_profile{
+		padding-top: 20px;
+	}
+	.star-trating i{
+		font-size: 20px;
+	}
+	.video_modal .modal-dialog {
+		max-width: 100%;
+	}
+
+}
+
+@media (max-width: 767px){
+	.header .navbar_main{
+		padding: 15px;
+	}
+	.abo_content{
+		padding-top: 15px;
+	}
+	.body_detail .tabel_content {
+		width: 120px;
+		margin: 0 auto;
+	}
+	.video_modal .modal-content video{
+		width: 100%;
+		height: auto;
+	}
+	.video_modal .modal-dialog{
+		margin: 0;
+	}
+	.video_modal .modal-header{
+		padding: 15px;
+	}
+	.video_modal .modal-body{
+		padding: 15px;
+	}
+	.video_modal .modal-header .btn-close{
+		width: 14px;
+		height: 14px;
+	}
+	.container{
+		padding: 0 15px;
+	}
+	.navbar_expand .navbar_main .sidebar-toggle{
+		top: 15px;
+		right: 15px;
+	}
+	.navbar-header .sidebar-menu{
+		top: 78px;
+	}
+	.reboot-img img{
+		width: 70px;
+		height: 70px;
+	}
+	.navbar_collapse.static{
+		margin-top: 78px;
+		padding-bottom: 78px;
+	}
+	.navbar_collapse{
+		margin-top: 78px;
+		padding-bottom: 78px;
+	}
+	.banner_content {
+		padding: 120px 0 100px 0;
+	}
+	h1 {
+		font-size: 52px;
+		line-height: 60px;
+	}
+	h2 {
+		font-size: 42px;
+		line-height: 50px;
+	}
+	.p-10{
+		padding: 40px 0;
+	}
+	.banner_content .main_tiltle {
+		padding: 15px 0 15px 0;
+	}
+	.banner_content p {
+		margin-bottom: 42px;
+	}
+	.p-8 {
+		padding-bottom: 36px;
+	}
+	.mb-60{
+		margin-bottom: 20px;
+	}
+	.about_img .abo-img{
+		padding-bottom: 40px;
+	}
+	.service_ic{
+		width: 100px;
+	}
+	.build_best {
+		padding-top: 30px;
+	}
+	.build_best .col-12:not(:last-child){
+		padding-bottom: 20px;
+	}
+	.services_box {
+		padding: 20px 15px;
+	}
+	.service_wrappe .service_title {
+		padding-left: 15px;
+	}
+	.fitzaro_video:before, .fitzaro_video:after, 
+	.testimonial-section:before, .testimonial-section:after, 
+	.fitzaro_banner:before{
+		content: none;
+	}
+	.background_shape{
+		display: none;
+	}
+	.video_info{
+		text-align: center;
+		padding-bottom: 30px;
+	}
+	.video_info .video-play{
+		justify-content: center;
+	}
+	.video_wrap{
+		padding-bottom: 50px;
+	}
+	.top-arrow-grp {
+		left: 10px;
+	}
+	.service_img{
+		margin-bottom: 30px;
+	}
+	.services-detail{
+		text-align: center;
+	}
+	.services_tool{
+		padding: 35px 15px 0 15px;
+	}
+	.fitzaro_tools h3 {
+		font-size: 22px;
+		line-height: 32px;
+	}
+	.order-number {
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.countdown_formula .coundown-number{
+		font-size: 54px;
+		line-height: 54px;
+	}
+	.fitzaro_coundown {
+		padding: 60px 0px 0px 0px;
+	}
+	.services_tool .box-tool {
+		padding: 25px 15px;
+	}
+	.gym_timetable table thead th{
+		padding: 15px 33px;
+		font-size: 20px;
+	}
+	.gym_timetable table tbody td .tabel_content h3{
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.gym_timetable table tbody td{
+		padding: 20px 15px;
+	}
+	.gym_timetable table tbody td .tabel_content .schedule_time{
+		padding-top: 15px;
+	}
+	.review_detail::before{
+		width: 99.6%;
+		height: 99%;
+	}
+	/*.pricing_data{
+		text-align: center;
+	}*/
+	.pricing_data .price-data{
+		left: 10px;
+		bottom: 10px;
+	}
+	.fitzaro_banner .col-lg-6 {
+		width: 100%;
+	}
+	.inn-price-plan .price_list{
+		padding-top: 10px;
+	}
+	.inn-price-plan:not(:last-child){
+		padding-bottom: 23px;
+	}
+	.border-shape{
+		border: 6px solid #000000;
+	}
+	.static_content, .blog_post{
+		text-align: center;
+	}
+	.skill_bar{
+		padding-bottom: 33px;
+	}
+	.progress-counter{
+		margin-bottom: 30px;
+	}
+	.feature-post{
+		justify-content: center;
+	}
+	.blog_title{
+		margin-bottom: 15px;
+	}
+	.fitzaro_blog .col-12:not(:last-child){
+		padding-bottom: 30px;
+	}
+	.post_data .feature-post{
+		padding: 15px 0 8px 0;
+	}
+	.reboot-img h2{
+		font-size: 36px;
+	}
+	.fitness-update:before{
+		bottom: -120px;
+		left: -200px;
+	}
+	.reboot-img:after{
+		top: -130px;
+		right: 0;
+	}
+	.fitness-update:after{
+		right: -150px;
+	}
+	.newsletter_subscribe .fitness-update{
+		padding: 40px 30px;
+	}
+	.sub-footer{
+		flex-wrap: wrap;
+		justify-content: center;
+		padding-top: 40px;
+		flex-direction: column;
+	}
+	.footer{
+		padding: 180px 0 40px 0;
+	}
+	.footer-social-list a{
+		margin: 0 10px;
+	}
+	.main-footer .col-12.col-md-4:not(:last-child){
+		padding-bottom: 30px;
+	}
+	.locate_places p{
+		margin: 20px 0 0 0;
+	}
+	.place_detail{
+		width: 80px;
+		height: 80px;
+		line-height: 80px;
+	}
+	.place_detail i{
+		font-size: 32px;
+	}
+	.footer-copyright p{
+		padding-bottom: 10px;
+		text-align: center;
+		font-size: 16px;
+	}
+	.copyright_privacy span{
+		margin: 0 10px;
+	}
+	.copyright_privacy a{
+		font-size: 16px;
+	}
+	.abo_content .sub_heading, .abo_content .main_heading, 
+	.abo_content .about_detail{
+		text-align: center;
+		display: block;
+	}
+	.countdown_formula .coundown-number{
+		padding: 20px 0 5px 0;
+	}
+	.fitzaro-table .col-12:not(:last-child){
+		padding-bottom: 30px;
+	}
+	.banner_content{
+		text-align: center;
+	}
+	.counter_image img{
+		width: auto;
+		height: 60px;
+	}
+	.counter_image{
+		width: 110px;
+		height: 110px;
+	}
+	.service_img:before {
+		position: absolute;
+		width: 90px;
+		height: 90px;
+		bottom: 0;
+		right: 0;
+		content: "";
+		border-bottom: 90px solid #ffffff;
+		border-left: 90px solid transparent;
+	}
+	.triangle-bottom {
+		position: absolute;
+		width: 0;
+		height: 0;
+		bottom: 0;
+		right: 0;
+		border-bottom: 60px solid #EA1C29;
+		border-left: 60px solid transparent;
+		margin: 15px;
+	}
+	.triangle-top {
+		position: absolute;
+		width: 0;
+		height: 0;
+		top: 0;
+		left: 0;
+		border-top: 40px solid #EA1C29;
+		border-right: 40px solid transparent;
+		margin: 10px;
+		z-index: 2;
+	}
+	.service_img:after {
+		position: absolute;
+		width: 60px;
+		height: 60px;
+		top: 0;
+		left: 0;
+		content: "";
+		border-top: 60px solid #ffffff;
+		border-right: 60px solid transparent;
+	}
+
+
+}
+
+
+@media (max-width: 575px){
+	.social-triangle::before{
+		width: 180px;
+		height: 200px;
+	}
+	h2{
+		font-size: 38px;
+		line-height: 48px;
+	}
+	.banner_content {
+		padding: 180px 0 100px 0;
+	}
+	.banner_social{
+		height: 70px;
+		width: 180px;
+	}
+	.triangle-1{
+		border-bottom: solid 150px #EA1C29;
+		border-left: solid 180px transparent;
+		bottom: 70px;
+	}
+	.slide_social_ic a{
+		padding: 0 14px;
+		font-size: 16px;
+	}
+	.slide_social_ic a:not(:last-child):after{
+		/*top: 8px;*/
+		margin: 0 14px;
+		width: 6px;
+		height: 6px;
+	}
+	.fitzaro_coundown .col-12{
+		width: 50%;
+	}
+	.counter_image {
+		width: 100px;
+		height: 100px;
+	}
+	.counter_image img{
+		width: auto;
+		height: 50px;
+	}
+	.countdown_formula .coundown-number{
+		font-size: 48px;
+		line-height: 50px;
+	}
+	.countdown_formula .sub_info{
+		font-size: 18px;
+		line-height: 21px;
+	}
+	h1{
+		font-size: 48px;
+		line-height: 58px;
+	}
+	span{
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.footer_subscribe_box .fitzaro_btn{
+		width: 40px;
+		height: 40px;
+	}
+	.footer_subscribe_box .subscribe-control{
+		height: 50px;
+	}
+	.footer_subscribe_box button i{
+		font-size: 22px;
+	}
+	.client_profile img{
+		width: 80px;
+		height: 80px;
+	}
+	.testimonial_data p{
+		margin-bottom: 8px;
+	}
+	.newsletter_subscribe .fitness-update {
+		padding: 30px 0;
+		margin: 0 15px;
+	}
+	.newsletter_subscribe .container{
+		padding: 0px;
+	}
+	.reboot-img h2 {
+		font-size: 30px;
+		line-height: 42px;
+		padding-left: 0;
+		text-align: center;
+		z-index: 4;
+		position: relative;
+		padding-top: 10px;
+	}
+	.reboot-img{
+		align-items: center;
+	}
+	.reboot-img img{
+		width: 60px;
+		height: 60px;
+		z-index: 4;
+		position: relative;
+		margin-top: 5px;
+	}
+	.dark-content h2{
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.review_detail::before{
+		height: 99.2%;
+	}
+	.review_detail p{
+		padding: 30px;
+		font-size: 16px;
+	}
+	.service_wrappe .instructor{
+		flex-direction: column;
+	}
+	.service_wrappe .blogs-block{
+		text-align: center!important;
+		padding-top: 15px;	
+	}
+	.service_wrappe .service_title{
+		padding: 10px 0 0 0;
+	}
+	.appointment_form{
+		padding: 30px 15px;
+	}
+	.fitness-update .reboot-img{
+		display: block!important;
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 425px){
+	.banner_content {
+		padding: 130px 0 100px 0;
+	}
+	.slide_social_ic a {
+		padding: 0 12px;
+		font-size: 14px;
+	}
+	.slide_social_ic a:not(:last-child):after{
+		margin: 0 12px;
+	}
+	/*.social-triangle::before {
+		width: 140px;
+		height: 170px;
+	}*/
+	.triangle-1{
+		border-bottom: solid 130px #EA1C29;
+		border-left: solid 150px transparent;
+		bottom: 50px;
+	}
+	.banner_social {
+		height: 50px;
+		width: 150px;
+	}
+	.slide_social_ic a{
+		padding: 0 14px;
+		font-size: 16px;
+		padding-bottom: 5px;
+	}
+	.slide_social_ic a:not(:last-child):after{
+		/*top: 8px;*/
+		margin: 0 14px;
+		width: 6px;
+		height: 6px;
+	}
+	h1 {
+		font-size: 44px;
+		line-height: 54px;
+	}
+	.top-arrow-grp {
+		left: 5px;
+	}
+	.video_wrap {
+		padding-bottom: 30px;
+	}
+
+}
+
+@media (max-width: 375px){
+	.review_detail::before{
+		width: 99.4%;
+	}
+	.countdown_formula .coundown-number{
+		font-size: 44px;
+		line-height: 46px;
+	}
+	.dark-content h2 {
+		font-size: 34px;
+		line-height: 44px;
+	}
+	.triangle-1{
+		border-bottom: solid 100px #EA1C29;
+		border-left: solid 140px transparent;
+		bottom: 60px;
+	}
+	.banner_social {
+		height: 60px;
+		width: 140px;
+	}
+	.slide_social_ic a{
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 360px){
+	.scroll-down{
+		display: none;
+	}
+}
+
+@media (max-width: 320px){
+	.top-arrow-grp {
+		left: 0;
+	}
+}

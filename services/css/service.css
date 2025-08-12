@@ -1,0 +1,287 @@
+/*------------------------------------------------------------------
+
+Project:       Fitzaro
+Last change:   20/07/2022
+Author   :     the_krishna   
+Primary use:   Gym & Fitness Template
+
+-------------------------------------------------------------------*/
+
+.dropdown .nav-link::after {
+    border: none;
+    content: "\ea4e";
+    font-family: 'remixicon' !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    margin: 0 0 0 5px;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.nav-item .dropdown-menu{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: auto;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 4px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #ffffff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+    box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+    margin-top: 0;
+    -webkit-transition: .3s;
+    -ms-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.open>.dropdown-menu {
+    display: block;
+}
+.open .dropdown-menu {
+    float: none;
+    width: auto;
+    margin-top: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.navbar-header.sticky .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #EA1C29;
+    color: #ffffff;
+}
+.nav-item.dropdown:hover .nav-link::after, 
+.nav-item.dropdown .nav-link.active::after{
+    color: #EA1C29;
+}
+.dropdown-menu li .dropdown-item {
+    padding: 10px 15px;
+    clear: both;
+    font-weight: 500;
+    color: #000000;
+    border: 0;
+    font-size: 16px;
+    margin: 0;
+    text-transform: initial;
+}
+.navbar_nav .dropdown-menu .dropdown-item:hover::before{
+    content: none;
+}
+.dropdown-menu li .dropdown-item:hover {
+    background-color: #EA1C29;
+    color: #ffffff;
+}
+.service_section{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: auto;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.service_section .banner_content{
+    position: relative;
+}
+.head_review{
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 51px;
+    text-align: center;
+    color: #000000;
+    position: relative;
+}
+.build_best .review_name{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #EA1C29;
+    text-align: center;
+    margin: 60px 0 0 0;
+    position: relative;
+}
+.build_best .head_review:after{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: #444444;
+    top: auto;
+    bottom: -40px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.video_info h2{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+}
+.trainer_detail{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.time_duration h3{
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 38px;
+    color: #EA1C29;
+}
+.time_duration .training_month{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+
+/************************ responsive css **********************/
+
+@media(max-width: 1400px) {
+    .time_duration h3{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .time_duration .training_month{
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media(max-width: 1440px) {
+    .navbar_nav .nav-item.dropdown a{
+        margin: 0;
+    }
+    .navbar_collapse .navbar_nav .nav-item a {
+        margin: 0 10px;
+    }
+}
+
+@media(max-width: 1199px) {
+    .nav-item .dropdown-menu{
+        opacity: 1;
+        visibility: visible;
+        background-color: transparent;
+        box-shadow: none;
+        width: 100%;
+        padding-top: 20px;
+        z-index: 999;
+        display: block;
+        border: none;
+    }
+    .nav-item.dropdown{
+        display: inline-block;
+    }
+    .header .navbar_collapse.static{
+        display: block;
+        padding-top: 40px;
+        z-index: 999;
+    }
+    .header .navbar_collapse{
+        display: block;
+        padding-top: 40px;
+    }
+    .header .navbar_nav .nav-item .nav-link{
+        margin: 25px 0;
+    }
+    .header .navbar_nav .nav-item .dropdown-item a{
+        margin: 10px 0;
+    }
+    .header .navbar_nav .nav-item .dropdown-item{
+        margin: 6px 0;
+    }
+    .dropdown .nav-link::after{
+        position: absolute;
+        right: 0;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .head_review{
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .build_best .head_review:after{
+        bottom: -30px;
+    }
+    .build_best .review_name{
+        margin: 50px 0 0 0;
+    }
+}
+
+@media(max-width: 991px) {
+    .time_duration .training_month {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .time_duration h3{
+        font-size: 26px;
+        line-height: 36px;
+        margin: 0;
+    }
+    .head_review {
+        font-size: 34px;
+        line-height: 44px;
+    }
+}
+
+@media(max-width: 767px) {
+    .head_review {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .trainer_detail{
+        justify-content: space-around;
+    }
+    .video_info h2{
+        font-size: 34px;
+    }
+}
+
+@media(max-width: 575px) {
+    .head_review {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .build_best .head_review:after {
+        bottom: -25px;
+    }
+    .build_best .review_name {
+        margin: 40px 0 0 0;
+    }
+    .time_duration h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .time_duration .training_month {
+        font-size: 22px;
+        line-height: 32px;
+    }
+}

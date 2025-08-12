@@ -1,0 +1,543 @@
+/*------------------------------------------------------------------
+
+Project:       Fitzaro
+Last change:   20/07/2022
+Author   :     the_krishna   
+Primary use:   Gym & Fitness Template
+
+-------------------------------------------------------------------*/
+
+/******************** blog-post detail section *****************/
+
+.first_section.blog_page {
+    background-image: url(../images/blog_img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: auto;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.post_detail .line-1, .post_detail .line-2, 
+.post_detail .line-3, .post_detail .line-4{
+    background: #000000;
+}
+.bg_image .line-shapes{
+    margin-top: 40px;
+}
+.view-person{
+    padding-right: 40px;
+}
+.post_view p{
+    color: #444444;
+}
+.post_view i{
+    font-size: 22px;
+    color: #EA1C29;
+    padding-right: 10px;
+}
+.video_info .post_content{
+    color: #444444;
+    padding-top: 35px;
+}
+.check_points{
+    padding-top: 30px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.weight-formula{
+    padding-top: 25px;
+}
+.fizaro_blog_images .blog_images{
+    border-radius: 20px;
+}
+.blog_images{
+    overflow: hidden;
+    position: relative;
+}
+.blog_images img {
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: transform 0.5s ease-in-out;
+    -moz-transition: transform 0.5s ease-in-out;
+    -o-transition: transform 0.5s ease-in-out;
+    -ms-transition: transform 0.5s ease-in-out;
+}
+.blog_images:hover img {
+    transform: scale(1.20);
+    -webkit-transform: scale(1.20);
+    -moz-transform: scale(1.20);
+    -ms-transform: scale(1.20);
+    -o-transform: scale(1.20);
+}
+.blog_images::before,
+.blog_images::after {
+    content: "";
+    background: #ffffff;
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    transition-duration: 1.3s !important;
+    -webkit-transition-duration: 1.3s !important;
+    -moz-transition-duration: 1.3s !important;
+    -o-transition-duration: 1.3s !important;
+    -ms-transition-duration: 1.3s !important;
+}
+.blog_images::before {
+    top: 0;
+    right: 0;
+    opacity: 0.7;
+}
+.blog_images::after {
+    bottom: 0;
+    left: 0;
+    opacity: 0.7;
+}
+.blog_images:hover::after,
+.blog_images:hover::before {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.blog_images img{
+    border-radius: 20px;
+}
+.fizaro_blog_images, .inn-sub-detail{
+    padding-top: 70px;
+}
+.post_date, .view-person{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.list_icon:last-child{
+    padding-bottom: 0;
+}
+.head_review {
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 51px;
+    text-align: center;
+    color: #000000;
+    position: relative;
+}
+.head_review:after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: #444444;
+    top: auto;
+    bottom: -40px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.review_name {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #EA1C29;
+    text-align: center;
+    margin: 60px 0 0 0;
+    position: relative;
+}
+.social-ic-listed a i{
+    color: #EA1C29;
+    font-size: 24px;
+}
+.social-ic-listed a:hover i{
+    color: #ffffff;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+.social-ic-listed a:hover{
+    background: #EA1C29;
+    border: 2px solid #EA1C29;
+}
+.social-ic-listed{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-top: 1px solid #444444;
+    border-bottom: 1px solid #444444;
+    padding: 20px 0;
+}
+.social-ic-listed a {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border: 2px solid #E9E9E9;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+
+/******************** comment-review section *****************/
+
+.blog_comment-area h2{
+    font-size: 42px;
+    line-height: 56px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.comment .thumbnail img{
+    border-radius: 100px;
+}
+.comment-content{
+    padding-left: 30px;
+}
+.comment-content .title{
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 6px;
+}
+.comment-content p{
+    font-size: 18px;
+    line-height: 26px;
+    padding-top: 15px;
+    margin: 0;
+}
+.comment-date span{
+    font-size: 18px;
+    color: #444444;
+    font-weight: 400;
+    text-transform: initial;
+}
+.comment-date{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.comment-date .reply-btn{
+    background: transparent;
+    border: none;
+}
+.comment{
+    border-top: 2px solid #F5F5F5;
+    padding: 20px 0;
+}
+.comment-reply {
+    margin-left: 130px;
+}
+.reply-btn svg {
+    margin-right: 10px;
+}
+.comment:first-child {
+    padding-top: 0;
+    border-top: 0;
+}
+.comment:last-child{
+    padding-bottom: 0;
+}
+
+
+/******************** comment form *****************/
+
+.leave-comment {
+    margin-top: 40px;
+}
+.comment-icon {
+    padding: 0 0 18px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #444444;
+}
+.comment-icon i {
+    color: #EA1C29;
+    font-size: 24px;
+    margin-right: 15px;
+}
+.comment-form-control {
+    border: none;
+    padding: 0;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+}
+.contact-form h2{
+    font-size: 42px;
+    line-height: 56px;
+    font-weight: 700;
+}
+.comment-form-control.checkbox {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #444444;
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 4px;
+    vertical-align: middle;
+    margin-right: 10px;
+    -webkit-box-shadow: inset 0 0 0 2px #616f7d;
+    box-shadow: inset 0 0 0 2px #616f7d;
+}
+textarea.comment-form-control:focus{
+    outline: none;
+    border: none;
+}
+.leave-comment label{
+    color: #444444;
+    font-weight: 400;
+    font-size: 18px;
+}
+.comment-btn{
+    padding-top: 40px;
+}
+
+
+/************************ responsive css **********************/
+
+@media(max-width: 1199px) {
+    .nav-item .dropdown-menu{
+        opacity: 1;
+        visibility: visible;
+        background-color: transparent;
+        box-shadow: none;
+        width: 100%;
+        /*position: relative;*/
+        padding-top: 20px;
+        z-index: 999;
+    }
+    .nav-item.dropdown{
+        display: inline-block;
+    }
+    .header .navbar_collapse.static{
+        display: block;
+        padding-top: 40px;
+        z-index: 999;
+    }
+    .header .navbar_collapse{
+        display: block;
+        padding-top: 40px;
+    }
+    .header .navbar_nav .nav-item .nav-link{
+        margin: 25px 0;
+    }
+    .header .navbar_nav .nav-item .dropdown-item a{
+        margin: 10px 0;
+    }
+    .header .navbar_nav .nav-item .dropdown-item{
+        margin: 8px 0;
+    }
+    .dropdown .nav-link::after{
+        position: absolute;
+        right: 0;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .head_review{
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .head_review:after{
+        bottom: -30px;
+    }
+    .review_name{
+        margin: 50px 0 0 0;
+    }
+    .box_detail:first-child{
+        padding-right: 10px;
+    }
+    .fizaro_blog_images, .inn-sub-detail {
+        padding-top: 60px;
+    }
+}
+
+@media(max-width: 991px) {
+    .head_review {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .video_info .post_content{
+        padding-top: 20px;
+    }
+    .social-ic-listed a{
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .social-ic-listed a i, 
+    .comment-icon i{
+        font-size: 22px;
+    }
+    .social-ic-listed{
+        padding: 15px 0;
+    }
+    .leave-comment {
+        margin-top: 30px;
+    }
+    .view-person {
+        padding-right: 25px;
+    }
+    .sub-post-data h2{
+        font-size: 40px;
+        text-align: center;
+    }
+    .blog_comment-area h2{
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+    .thumbnail img{
+        width: 80px;
+        height: 80px;
+    }
+    .comment-content {
+        padding-left: 20px;
+    }
+    .comment-reply {
+        margin-left: 100px;
+    }
+    .comment-icon{
+        margin-bottom: 30px;
+    }
+    .comment-btn {
+        padding-top: 30px;
+    }
+    .leave-comment label{
+        font-size: 16px;
+    }
+    .contact-form h2{
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 767px) {
+    .head_review {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .weight-formula, .inn-sub-detail{
+        text-align: center;
+    }
+    .post_detail .video_info{
+        padding: 30px 0 0 0;
+    }
+    .post_view {
+        justify-content: center;
+    }
+    .fizaro_blog_images .blog_images{
+        text-align: center;
+    }
+    .fizaro_blog_images, .inn-sub-detail {
+        padding-top: 40px;
+    }
+    .fizaro_blog_images .col-12:not(:last-child){
+        margin-bottom: 20px;
+    }
+    .blog_comment-area h2, 
+    .contact-form h2{
+        text-align: center;
+    }
+    .comment-content p{
+        font-size: 17px;
+        padding-top: 12px;
+    }
+    .comment-date span{
+        font-size: 16px;
+    }
+    .comment-reply {
+        margin-left: 70px;
+    }
+    .reply-btn svg {
+        margin-right: 6px;
+    }
+    .comment-icon {
+        margin-bottom: 25px;
+        padding: 0 0 15px 0;
+    }
+    .check_points{
+        padding-top: 25px;
+        flex-wrap: wrap;
+    }
+    .box_detail:first-child{
+        padding: 0 0 8px 0;
+    }
+}
+
+@media(max-width: 575px) {
+    .head_review {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .head_review:after {
+        bottom: -25px;
+    }
+    .review_name {
+        margin: 40px 0 0 0;
+    }
+    .sub-post-data h2, 
+    .blog_comment-area h2{
+        font-size: 36px;
+    }
+    .comment-content {
+        padding-left: 12px;
+    }
+    .comment-content p{
+        padding-top: 8px;
+    }
+    .comment-reply {
+        margin-left: 50px;
+    }
+    .social-ic-listed a i, .comment-icon i {
+        font-size: 20px;
+    }
+    .social-ic-listed a{
+        margin: 0 6px;
+    }
+    .thumbnail img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 360px){
+    .banner_content h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .banner_content p {
+        margin-bottom: 38px;
+    }
+    .comment-reply {
+        margin-left: 30px;
+    }
+    .banner_content {
+        padding: 80px 0 50px 0;
+    }
+}

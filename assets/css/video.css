@@ -1,0 +1,81 @@
+/*------------------------------------------------------------------
+
+Project:       Fitzaro
+Last change:   20/07/2022
+Author   :     the_krishna   
+Primary use:   Gym & Fitness Template
+
+-------------------------------------------------------------------*/
+
+.video_background {
+    height: auto;
+    min-height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.first_section.video_play{
+    background-image: none;
+}
+.myvideo{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    min-height: 100vh;
+    height: auto;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+/****************** Responsive view ********************/
+
+@media(max-width: 1600px) {
+    .myvideo{
+        width: 125%;
+    }
+}
+
+@media(max-width: 1199px) {
+    .myvideo{
+        width: 155%;
+    }
+}
+
+@media(max-width: 991px) {
+    .myvideo{
+        width: 200%;
+    }
+}
+
+@media(max-width: 767px) {
+    .myvideo{
+        width: 268%;
+    }
+}
+
+@media(max-width: 575px) {
+    .myvideo{
+        width: 340%;
+    }
+}
+
+@media(max-width: 450px) {
+    .myvideo{
+        width: 410%;
+    }
+}
+
+@media(max-width: 375px) {
+    .myvideo{
+        width: 500%;
+    }
+
+}
